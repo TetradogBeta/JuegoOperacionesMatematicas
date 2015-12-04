@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Gabriel.Cat.Utilitats">
+      <HintPath>..\Gabriel.Cat.Utilitats\bin\Release\Gabriel.Cat.Utilitats.dll</HintPath>
+    </Reference>
+    <Reference Include="Gabriel.Cat.WindowsForms">
+      <HintPath>..\Gabriel.Cat.WindowsForms\bin\Debug\Gabriel.Cat.WindowsForms.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -41,11 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Altres\NumerosUpDown.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Altres\NumerosUpDown.Designer.cs" />
-    <Compile Include="Altres\text.cs" />
     <Compile Include="ControlCircular.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -111,6 +112,8 @@
     <Compile Include="NivellJugador.Designer.cs">
       <DependentUpon>NivellJugador.cs</DependentUpon>
     </Compile>
+    <Compile Include="NumerosUpDown.cs" />
+    <Compile Include="NumerosUpDown.Designer.cs" />
     <Compile Include="OperacionsAmbDosFiles.cs">
       <SubType>UserControl</SubType>
     </Compile>
